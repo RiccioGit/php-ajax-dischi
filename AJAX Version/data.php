@@ -86,10 +86,9 @@
              "author" => "Michael Jacjson",
              "genre" => "Pop",
              "year" => "1987"
-         ]
-     ]
-  ]
-
+         ],
+     ],
+  ];
 
   echo json_encode($data);
 
