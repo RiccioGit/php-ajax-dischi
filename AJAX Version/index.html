@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Link my CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link Handlebars -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
+
+    <!-- Link Ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Link my Script -->
+    <script src="script.js"></script>
+
+    <!-- TITLE -->
+    <title>PHP AJAX DISCHI</title>
+
+    <script id="template" type="text/x-handlebars-template">
+
+      <div class="cd">
+
+        <img src="{{ cover }}" alt="cover">
+        <h3>{{ cdTitle }}</h3>
+        <span class="author">{{ artist }}</span>
+        <span class="year">{{ year }}</span>
+
+      </div>
+
+    </script>
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+          <img src="img/logo.png" alt="logo" />
+      </div>
+    </header>
+
+    <div class="cds-container container">
+
+    </div>
+
+    <!-- Link my Script -->
+    <script src="script.js" charset="utf-8"></script>
+
+  </body>
+</html>
